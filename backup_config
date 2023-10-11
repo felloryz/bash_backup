@@ -1,0 +1,8 @@
+source_paths:
+../bash_user_create
+../sha256.sh
+/home/ryyzhovfs/sysprog/bash_backup/backup_config
+backup_path:
+./backup
+max_backups:
+4
