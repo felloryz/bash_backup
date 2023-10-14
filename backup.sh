@@ -79,7 +79,7 @@ function read_source_paths() {
 read_source_paths "$config_path"
 # echo "$source_paths"
 
-# Read source_paths
+# Read backup_paths
 function read_backup_path() {
     # Path to config file
     local config_file=$1
@@ -106,7 +106,7 @@ function read_backup_path() {
 read_backup_path "$config_path"
 # echo "$backup_path_var"
 
-# Read source_paths
+# Read read_max_backups
 function read_max_backups() {
     # Path to config file
     local config_file=$1
