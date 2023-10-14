@@ -145,6 +145,9 @@ fi
 # Count the number of files with .tar.gz extension in the folder
 count_backups=$(find $backup_path_var -maxdepth 1 -type f -name "*.tar.gz" | wc -l)
 
+# echo "$max_backup_value"
+# echo "$count_backups"
+
 # If the number of files is more than 10, delete the first file
 if [[ $count_backups -gt $((max_backup_value-1)) ]]; then
   # Find the first file by sorting by modification time in ascending order

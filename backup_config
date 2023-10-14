@@ -1,8 +1,10 @@
 source_paths:
-../bash_user_create
+../bash_user_create/.git/branches
 ../sha256.sh
 /home/ryyzhovfs/sysprog/bash_backup/backup_config
+/tmp/remote-wsl-loc.txt
+/etc/passwd
 backup_path:
 ./backup
 max_backups:
-4
+3
